@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Web Developer Resume NB(Tamang)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="nav-menu">
+        <h1 class="logo-text">Building ideas into reality</h1>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#hobby-gallery">Hobbies</a> 
+             <a href="#video">Youtube</a>
+            <a href="#comments">Showcase</a>
+        </nav>
+        <button id="dark-mode-toggle">Switch to Dark Mode</button>
+    </header>
+    <section id="about" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <img src="https://i.ibb.co/v4bcxR4z/IMG-1204.avif" alt="Niraj Bamjan Profile Picture" class="profile-img">
+                <h2>Aspiring Web Developer & Creative Thinker</h2>
+                <p>
+                    Hello! My name is Niraj Bamjan. I am building responsive, modern, and user-friendly web applications using clean HTML, CSS variables, Flexbox layouts, and interactive JavaScript components. Tracked and deployed directly via GitHub Pages!
+                </p>
+                <div class="cta-buttons">
+                    <a href="#resume" class="btn btn-primary">View Resume</a>
+                    <a href="#video" class="btn btn-secondary">Watch Video</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="resume">
+        <div class="container resume-layout">
+            
+            <div class="resume-main card">
+                <h3 class="section-title">Seoul Theological University</h3>
+                
+                <div class="resume-item">
+                    <h4></h4>
+                    <h5 class="timeline">Studying Computer Engineering program</h5>
+                    <p>Building projects with modular structure, responsive components, DOM node mutations, and user-behavior responsive logic. Testing and learning modern continuous deployment workflows.</p>
+                </div>
+                <h3 class="section-title" style="margin-top: 40px;">Professional Goals</h3>
+                <div class="resume-item">
+                    <h4>Web Developer</h4>
+                    <p>My goal is to become a high-level professional front-end engineer and assemble modern, fluid, user-first web applications using production ecosystems.</p>
+                </div>
+            </div>
+
+            <aside class="resume-sidebar card">
+                <h3 class="section-title">Core Skills</h3>
+                <div class="skills-container">
+                    <span class="skill-badge">HTML5</span>
+                    <span class="skill-badge">CSS Variables</span>
+                    <span class="skill-badge">Flexbox Layout</span>
+                    <span class="skill-badge"> JavaScript</span>
+                    <span class="skill-badge">Responsive Design</span>
+                    <span class="skill-badge">Git & GitHub Pages</span>
+                </div>
+
+                <div class="contact-card">
+                    <h4>Contact: 01020063000</h4>
+                    <p><strong>Location:</strong> Bucheon-si, South Korea</p>
+                </div>
+            </aside>
+
+        </div>
+    </section>
+
+    <section id="hobby-gallery" class="bg-light">
+        <div class="container text-center">
+            <h3 class="section-title">My Hobby Gallery</h3>
+            <p class="section-subtitle">What i like...</p>
+            
+            <div class="gallery-wrapper">
+                <img id="gallery-img" src="https://i.ibb.co/v4bcxR4z/IMG-1204.avif" alt="My Hobby">
+            </div>
+            
+            <button id="next-btn" class="btn btn-primary">
+                Next Photo ➜
+            </button>
+        </div>
+    </section>
+    <section id="video" class="bg-light">
+        <div class="container text-center">
+            <h3 class="section-title">YouTube Video</h3>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BOJtXvGqD88?si=g-OcWD_ukTj5wC5K"  
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            </div>
+        </div>
+    </section>
+    <section id="comments">
+        <div class="container comment-section card">
+            <h3 class="section-title text-center">Leave Your Project Link</h3>
+            <p class="text-center section-subtitle">Did you complete your web setup? Paste your live GitHub Pages link down below!</p>
+            
+            <form id="comment-form">
+                <input type="text" id="viewer-name" placeholder="Your Name" required>
+                <input type="url" id="viewer-url" placeholder="https://yourusername.github.io/repository/" required>
+                <textarea id="viewer-message" placeholder="Write a brief comment about your creation..." rows="4"></textarea>
+                <button type="submit" class="btn btn-primary">Submit To Showcase</button>
+            </form>
+
+            <div id="comment-list-container">
+                <h4>Submitted Showcase Project Links</h4>
+                <div id="comments-box">
+                    <p class="no-comments">No projects submitted yet. Be the first!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>2026 Niraj Bamjan | Project Tracked and Deployed via GitHub.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
